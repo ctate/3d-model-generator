@@ -1,5 +1,5 @@
 <a href="https://v0.dev/community/3-d-model-generator-powered-by-hyper3-d-rodin-bTIhXEOJa8w">
-  <img alt="3D Model Generator" src="https://sjc.microlink.io/UrRkiOTHJikDe79Jb-UFYO9aOVBqQLbTXLy_O2yz95JhkYcONEeubN1InB47NDfjV8n0rpCTQopYc4ENVr4uiA.jpeg">
+  <img alt="3D Model Generator" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ss3-WrQOPkN8S95aSRruDF4fqnOc19oYGy.png">
   <h1 align="center">3D Model Generator</h1>
 </a>
 
