@@ -46,4 +46,3 @@ export async function downloadModel(taskUuid: string) {
 
   return await response.json()
 }
-

@@ -36,4 +36,3 @@ export default function ModelComponent({ url }: { url: string }) {
     </Center>
   )
 }
-

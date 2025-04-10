@@ -32,4 +32,3 @@ export default function ImageUploadArea({ previewUrls, onRemoveImage, isLoading 
     </div>
   )
 }
-

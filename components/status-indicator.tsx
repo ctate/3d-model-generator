@@ -32,4 +32,3 @@ export default function StatusIndicator({ isLoading, jobStatuses }: StatusIndica
     </div>
   )
 }
-

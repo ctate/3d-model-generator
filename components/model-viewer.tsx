@@ -33,4 +33,3 @@ export default function ModelViewer({ modelUrl }: { modelUrl: string | null }) {
     </div>
   )
 }
-

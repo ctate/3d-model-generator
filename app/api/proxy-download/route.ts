@@ -34,4 +34,3 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Failed to proxy download" }, { status: 500 })
   }
 }
-

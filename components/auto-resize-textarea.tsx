@@ -72,4 +72,3 @@ const AutoResizeTextarea = React.forwardRef<HTMLTextAreaElement, AutoResizeTexta
 AutoResizeTextarea.displayName = "AutoResizeTextarea"
 
 export default AutoResizeTextarea
-
