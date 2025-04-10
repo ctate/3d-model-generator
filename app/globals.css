@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+
+  --card: 0 0% 3.9%;
+  --card-foreground: 0 0% 98%;
+
+  --popover: 0 0% 3.9%;
+  --popover-foreground: 0 0% 98%;
+
+  --primary: 0 0% 100%;
+  --primary-foreground: 0 0% 0%;
+
+  --secondary: 0 0% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+
+  --muted: 0 0% 14.9%;
+  --muted-foreground: 0 0% 63.9%;
+
+  --accent: 0 0% 100%;
+  --accent-foreground: 0 0% 0%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 0 0% 15.9%;
+  --input: 0 0% 15.9%;
+  --ring: 0 0% 100%;
+
+  --radius: 0.5rem;
+}
+
+* {
+  @apply border-border;
+}
+
+html,
+body {
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+  touch-action: none;
+  position: fixed;
+}
+
+body {
+  @apply bg-background text-foreground;
+  font-family: "Geist Mono", monospace;
+  background-color: black;
+}
+
