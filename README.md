@@ -16,38 +16,38 @@
 </p>
 
 <p align="center">
-  <a href="#-features"><strong>Features</strong></a> ·
-  <a href="#-getting-started"><strong>Getting Started</strong></a> ·
-  <a href="#-usage"><strong>Usage</strong></a> ·
-  <a href="#-tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#-contributing"><strong>Contributing</strong></a>
+  <a href="#features"><strong>Features</strong></a> ·
+  <a href="#getting-started"><strong>Getting Started</strong></a> ·
+  <a href="#usage"><strong>Usage</strong></a> ·
+  <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
+  <a href="#contributing"><strong>Contributing</strong></a>
 </p>
 
 <br/>
 
-## ✨ Features
+## Features
 
 ### Core Capabilities
-- 🎨 **Text-to-3D Generation** - Describe any object and watch it come to life in 3D
-- 🖼️ **Image-to-3D Conversion** - Upload reference images to guide the generation process
-- 🔄 **Hybrid Mode** - Combine text prompts with images for more precise results
-- 👁️ **Real-time 3D Preview** - Interactive viewer powered by Three.js with orbit controls
+- **Text-to-3D Generation** - Describe any object and watch it come to life in 3D
+- **Image-to-3D Conversion** - Upload reference images to guide the generation process
+- **Hybrid Mode** - Combine text prompts with images for more precise results
+- **Real-time 3D Preview** - Interactive viewer powered by Three.js with orbit controls
 
 ### Advanced Options
-- 📊 **Quality Settings** - Choose from high, medium, low, or extra-low quality based on your needs
-- 📦 **Multiple Export Formats** - Download models in GLB, USDZ, FBX, OBJ, or STL formats
-- 🎭 **Material Options** - Select between PBR (Physically Based Rendering) or Shaded materials
-- 🧍 **T-Pose Mode** - Generate character models in T-pose for animation workflows
-- ⚡ **Hyper Mode** - Enable faster generation with optimized settings
-- 🎯 **Quality Tiers** - Regular or Sketch mode depending on your use case
+- **Quality Settings** - Choose from high, medium, low, or extra-low quality based on your needs
+- **Multiple Export Formats** - Download models in GLB, USDZ, FBX, OBJ, or STL formats
+- **Material Options** - Select between PBR (Physically Based Rendering) or Shaded materials
+- **T-Pose Mode** - Generate character models in T-pose for animation workflows
+- **Hyper Mode** - Enable faster generation with optimized settings
+- **Quality Tiers** - Regular or Sketch mode depending on your use case
 
 ### User Experience
-- 📱 **Fully Responsive** - Optimized for both desktop and mobile devices
-- 🌓 **Dark Theme** - Modern, eye-friendly interface
-- 📈 **Real-time Status Updates** - Track generation progress with live status indicators
-- 💾 **Direct Downloads** - One-click download of generated models
+- **Fully Responsive** - Optimized for both desktop and mobile devices
+- **Dark Theme** - Modern, eye-friendly interface
+- **Real-time Status Updates** - Track generation progress with live status indicators
+- **Direct Downloads** - One-click download of generated models
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -95,7 +95,7 @@ pnpm build
 pnpm start
 ```
 
-## 📖 Usage
+## Usage
 
 ### Basic Generation
 
@@ -143,7 +143,7 @@ Click the **"Options"** button to access advanced settings:
   - `Regular` - Standard detailed output
   - `Sketch` - Faster, simpler geometry
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **[Next.js 15](https://nextjs.org/)** - React framework with App Router
@@ -166,7 +166,7 @@ Click the **"Options"** button to access advanced settings:
 ### API
 - **[Hyper3D Rodin API](https://developer.hyper3d.ai)** - AI-powered 3D generation
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app/
@@ -191,13 +191,13 @@ Click the **"Options"** button to access advanced settings:
 └── hooks/                # Custom React hooks
 ```
 
-## 🔑 Environment Variables
+## Environment Variables
 
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `HYPER3D_API_KEY` | Your Hyper3D Rodin API key | Yes |
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -207,23 +207,23 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **[Hyper3D](https://hyper3d.ai)** for the amazing Rodin API
 - **[v0.dev](https://v0.dev)** for the initial project scaffold
 - **[Vercel](https://vercel.com)** for hosting and deployment
 
-## 👤 Author
+## Author
 
 **Chris Tate**
 - Twitter: [@ctatedev](https://x.com/ctatedev)
 - GitHub: [@ctatedev](https://github.com/ctatedev)
 
-## 📚 Resources
+## Resources
 
 - [Hyper3D Official Website](https://hyper3d.ai)
 - [Hyper3D API Documentation](https://developer.hyper3d.ai)
@@ -233,5 +233,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Made with ❤️ by Chris Tate
+  Made by Chris Tate
 </p>
