@@ -14,21 +14,21 @@
 </p>
 
 <p align="center">
-  <a href="#-about"><strong>About</strong></a> ·
-  <a href="#-getting-started"><strong>Getting Started</strong></a> ·
-  <a href="#-features"><strong>Features</strong></a> ·
-  <a href="#-tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#-usage"><strong>Usage</strong></a> ·
-  <a href="#-author"><strong>Author</strong></a>
+  <a href="#about"><strong>About</strong></a> ·
+  <a href="#getting-started"><strong>Getting Started</strong></a> ·
+  <a href="#features"><strong>Features</strong></a> ·
+  <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
+  <a href="#usage"><strong>Usage</strong></a> ·
+  <a href="#author"><strong>Author</strong></a>
 </p>
 
 ---
 
-## 📋 About
+## About
 
 3D Model Generator is an accessible AI-powered application that lets you create high-quality 3D models from text descriptions or images. Whether you're a designer, developer, or creator, this tool brings your ideas to life without requiring advanced 3D modeling skills.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## ✨ Features
+## Features
 
 - **Text-to-3D Generation** - Describe your model in words and watch it come to life
 - **Image-to-3D Generation** - Upload reference images to guide model creation
@@ -70,7 +70,7 @@
 - **Responsive Design** - Seamlessly works on desktop, tablet, and mobile
 - **Advanced Customization** - Fine-tune generation parameters for precise results
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/) 15 with React 19
 - **3D Rendering**: [Three.js](https://threejs.org/) with [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/)
@@ -80,7 +80,7 @@
 - **Notifications**: [Sonner](https://sonner.emilkowal.ski/)
 - **API**: Hyper3D Rodin API for 3D generation
 
-## 📖 Usage
+## Usage
 
 1. **Enter a description** - Write what you'd like to create (e.g., "a futuristic chair")
 2. **Add reference images** (optional) - Upload images to guide the generation
@@ -88,12 +88,12 @@
 4. **Generate** - Click generate and wait for your model to be created
 5. **Preview & Download** - View your 3D model in real-time and download in your preferred format
 
-## 👨‍💻 Author
+## Author
 
 - **Chris Tate** ([@ctatedev](https://x.com/ctatedev))
 
 ---
 
 <p align="center">
-  Built with ❤️ using modern web technologies
+  Built with modern web technologies
 </p>
