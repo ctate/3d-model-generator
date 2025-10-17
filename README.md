@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  A 3D model generation application powered by Hyper3D Rodin API.
+  AI-powered 3D model generation from text prompts or images, powered by Hyper3D Rodin API
 </p>
 
 <p align="center">
@@ -14,43 +14,73 @@
 </p>
 
 <p align="center">
-  <a href="#about"><strong>About</strong></a> ·
-  <a href="#how-to-use"><strong>How to Use</strong></a> ·
-  <a href="#tech"><strong>Tech</strong></a> ·
   <a href="#features"><strong>Features</strong></a> ·
+  <a href="#getting-started"><strong>Getting Started</strong></a> ·
+  <a href="#usage"><strong>Usage</strong></a> ·
+  <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
   <a href="#author"><strong>Author</strong></a>
 </p>
-<br/>
 
-## About
-
-3D Model Generator is an AI-powered application that allows you to create 3D models from text prompts or images. Powered by the Hyper3D Rodin API, this tool makes 3D creation accessible to everyone, regardless of their 3D modeling experience.
-
-## How to Use
-
-1. **Enter a prompt**: Describe the 3D model you want to create
-2. **Upload images** (optional): Add reference images to guide the generation
-3. **Adjust settings**: Customize quality, format, and other parameters
-4. **Generate**: Click the submit button to create your 3D model
-5. **Download**: Once generated, download your model in the selected format
-
-## Tech
-
-- React & Next.js
-- Three.js for 3D rendering and visualization
-- Hyper3D Rodin API for 3D model generation
-- Tailwind CSS for styling
-- Shadcn/UI components
+---
 
 ## Features
 
-- Text-to-3D generation
-- Image-to-3D generation
-- Multiple file format support (GLB, USDZ, FBX, OBJ, STL)
-- Adjustable quality settings
-- Real-time 3D preview
-- Responsive design for desktop and mobile
-- Advanced options for fine-tuning generation
+- **Text-to-3D generation**: Create models from descriptive prompts
+- **Image-to-3D generation**: Generate models from reference images
+- **Multiple export formats**: GLB, USDZ, FBX, OBJ, STL
+- **Quality customization**: Adjustable quality settings for generation
+- **Real-time preview**: View models as they're generated
+- **Responsive design**: Works seamlessly on desktop and mobile
+- **Advanced options**: Fine-tune generation parameters for precise results
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm/pnpm
+- Hyper3D Rodin API key
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd 3d-model-generator
+```
+
+2. Install dependencies:
+```bash
+pnpm install
+```
+
+3. Create a `.env.local` file with your API keys:
+```bash
+NEXT_PUBLIC_HYPER3D_API_KEY=your_api_key_here
+```
+
+4. Start the development server:
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to get started.
+
+## Usage
+
+1. **Enter a prompt** or upload an image to describe your 3D model
+2. **Customize settings** like quality and output format
+3. **Click Generate** to create your 3D model
+4. **Preview** the model in real-time with interactive controls
+5. **Download** your model in your preferred format
+
+## Tech Stack
+
+- **Frontend**: React 19 + Next.js 15
+- **3D Rendering**: Three.js with React Three Fiber
+- **UI Components**: Shadcn/UI + Radix UI
+- **Styling**: Tailwind CSS
+- **Form Handling**: React Hook Form + Zod
+- **API**: Hyper3D Rodin
 
 ## Author
 
