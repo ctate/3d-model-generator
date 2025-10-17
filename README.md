@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  A 3D model generation application powered by Hyper3D Rodin API.
+  An AI-powered 3D model generation application built with Next.js and powered by Hyper3D Rodin API.
 </p>
 
 <p align="center">
@@ -14,44 +14,86 @@
 </p>
 
 <p align="center">
-  <a href="#about"><strong>About</strong></a> ·
-  <a href="#how-to-use"><strong>How to Use</strong></a> ·
-  <a href="#tech"><strong>Tech</strong></a> ·
-  <a href="#features"><strong>Features</strong></a> ·
-  <a href="#author"><strong>Author</strong></a>
+  <a href="#-about"><strong>About</strong></a> ·
+  <a href="#-getting-started"><strong>Getting Started</strong></a> ·
+  <a href="#-features"><strong>Features</strong></a> ·
+  <a href="#-tech-stack"><strong>Tech Stack</strong></a> ·
+  <a href="#-usage"><strong>Usage</strong></a> ·
+  <a href="#-author"><strong>Author</strong></a>
 </p>
-<br/>
 
-## About
+---
 
-3D Model Generator is an AI-powered application that allows you to create 3D models from text prompts or images. Powered by the Hyper3D Rodin API, this tool makes 3D creation accessible to everyone, regardless of their 3D modeling experience.
+## 📋 About
 
-## How to Use
+3D Model Generator is an accessible AI-powered application that lets you create high-quality 3D models from text descriptions or images. Whether you're a designer, developer, or creator, this tool brings your ideas to life without requiring advanced 3D modeling skills.
 
-1. **Enter a prompt**: Describe the 3D model you want to create
-2. **Upload images** (optional): Add reference images to guide the generation
-3. **Adjust settings**: Customize quality, format, and other parameters
-4. **Generate**: Click the submit button to create your 3D model
-5. **Download**: Once generated, download your model in the selected format
+## 🚀 Getting Started
 
-## Tech
+### Prerequisites
 
-- React & Next.js
-- Three.js for 3D rendering and visualization
-- Hyper3D Rodin API for 3D model generation
-- Tailwind CSS for styling
-- Shadcn/UI components
+- Node.js 18+ and pnpm (or npm)
+- API key for Hyper3D Rodin (get one at [Hyper3D](https://hyper3d.io))
 
-## Features
+### Installation
 
-- Text-to-3D generation
-- Image-to-3D generation
-- Multiple file format support (GLB, USDZ, FBX, OBJ, STL)
-- Adjustable quality settings
-- Real-time 3D preview
-- Responsive design for desktop and mobile
-- Advanced options for fine-tuning generation
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-## Author
+2. **Install dependencies**
+   ```bash
+   pnpm install
+   ```
 
-- Chris Tate ([@ctatedev](https://x.com/ctatedev))
+3. **Set up environment variables**
+   Create a `.env.local` file in the root directory:
+   ```bash
+   NEXT_PUBLIC_API_KEY=your_hyper3d_api_key_here
+   ```
+
+4. **Run the development server**
+   ```bash
+   pnpm dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## ✨ Features
+
+- **Text-to-3D Generation** - Describe your model in words and watch it come to life
+- **Image-to-3D Generation** - Upload reference images to guide model creation
+- **Multiple Export Formats** - Download in GLB, USDZ, FBX, OBJ, or STL
+- **Quality Control** - Adjustable quality settings to match your needs
+- **Real-time Preview** - Visualize your 3D model before downloading
+- **Responsive Design** - Seamlessly works on desktop, tablet, and mobile
+- **Advanced Customization** - Fine-tune generation parameters for precise results
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) 15 with React 19
+- **3D Rendering**: [Three.js](https://threejs.org/) with [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) with animations
+- **Components**: [Shadcn/UI](https://ui.shadcn.com/) - Radix UI primitives
+- **Forms**: [React Hook Form](https://react-hook-form.com/) with [Zod](https://zod.dev/) validation
+- **Notifications**: [Sonner](https://sonner.emilkowal.ski/)
+- **API**: Hyper3D Rodin API for 3D generation
+
+## 📖 Usage
+
+1. **Enter a description** - Write what you'd like to create (e.g., "a futuristic chair")
+2. **Add reference images** (optional) - Upload images to guide the generation
+3. **Configure settings** - Choose quality level, output format, and other parameters
+4. **Generate** - Click generate and wait for your model to be created
+5. **Preview & Download** - View your 3D model in real-time and download in your preferred format
+
+## 👨‍💻 Author
+
+- **Chris Tate** ([@ctatedev](https://x.com/ctatedev))
+
+---
+
+<p align="center">
+  Built with ❤️ using modern web technologies
+</p>
