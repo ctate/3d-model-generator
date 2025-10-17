@@ -211,4 +211,4 @@ If you encounter any issues or have questions:
 
 ---
 
-<p align="center">Made with ❤️ by <a href="https://x.com/ctatedev">Chris Tate</a></p>
+<p align="center">Made by <a href="https://x.com/ctatedev">Chris Tate</a></p>
