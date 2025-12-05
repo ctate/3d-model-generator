@@ -50,5 +50,5 @@ body {
 body {
   @apply bg-background text-foreground;
   font-family: "Geist Mono", monospace;
-  background-color: black;
+  background-color: blue;
 }
