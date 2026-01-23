@@ -10,6 +10,7 @@ import StatusIndicator from "./status-indicator"
 import OptionsDialog from "./options-dialog"
 import { Button } from "@/components/ui/button"
 import { useMediaQuery } from "@/hooks/use-media-query"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function Rodin() {
   const [isLoading, setIsLoading] = useState(false)
@@ -218,10 +219,18 @@ export default function Rodin() {
           <p className="text-gray-400 text-sm mt-1 tracking-normal">Powered by Hyper3D Rodin</p>
         </div>
 
-        {/* Links in top right - desktop only */}
+        {/* Links and theme toggle in top right - desktop only */}
         {!isMobile && (
-          <div className="absolute top-6 right-6 pointer-events-auto">
+          <div className="absolute top-6 right-6 flex items-center gap-4 pointer-events-auto">
             <ExternalLinks />
+            <ThemeToggle />
+          </div>
+        )}
+
+        {/* Theme toggle for mobile */}
+        {isMobile && (
+          <div className="absolute top-6 right-6 pointer-events-auto">
+            <ThemeToggle />
           </div>
         )}
 
