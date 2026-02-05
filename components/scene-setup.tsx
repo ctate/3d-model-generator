@@ -2,13 +2,13 @@
 
 import { useEffect } from "react"
 import { useThree } from "@react-three/fiber"
+import { Color } from "three"
 
 export default function SceneSetup() {
   const { scene } = useThree()
 
   useEffect(() => {
-    // Set background to transparent to show the CSS background
-    scene.background = null
+    scene.background = new Color(0xff0000)
   }, [scene])
 
   return null
